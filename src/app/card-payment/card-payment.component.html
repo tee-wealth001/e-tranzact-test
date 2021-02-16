@@ -105,7 +105,7 @@
             <div id="card-front">
               <div id="shadow"></div>
               <div id="image-container">
-                <span id="amount">Amount: <strong>{{amount}}</strong></span>
+                <span id="amount">Amount:</span>
                 <input type="text" id="amount" formControlName="amount" placeholder="" class="text-right" size="4" />
                 <div *ngIf="!formControls.amount.valid && (formControls.amount.dirty || formControls.amount.touched)" class="invalid-feedback">
                   <div *ngIf="formControls.amount.errors" class="alert alert-danger">Invalid Amount.</div>
