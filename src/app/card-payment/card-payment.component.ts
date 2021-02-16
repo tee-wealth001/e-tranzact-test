@@ -108,18 +108,7 @@ export class CardPaymentComponent implements OnInit, OnDestroy {
 
       this.facade.makePayment(paymentFormData);
         this._toastr.success('SUCCESSFUL', 'Your payment was successful')
-      // this.paymentService.makePayment(paymentFormData).subscribe(
-      //   response => {
-      //     if (response.body.status === 'success') {
-      //       this._toastr.success('SUCCESSFUL', 'Your payment was successful')
-      //       this._router.navigate(['home']);
-      //     } else {
-      //       this._toastr.error('FAILED', 'Your payment Failed, please try again later')
-      //     }
-      //   }
-      // )
     } else {
-      // this.errorMessage = "the Form is Invalid!";
       this._toastr.error("Form Submission Failed", "FAILED")
     }
   }

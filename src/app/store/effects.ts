@@ -12,8 +12,6 @@ import {
   withLatestFrom,
 } from 'rxjs/operators';
 import { routerNavigatedAction } from '@ngrx/router-store';
-
-// import { CreditCardPaymentAdapter } from 'src/app/core/adapter';
 import { PaymentService } from '../services/payment.service';
 import {
   load,

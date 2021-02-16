@@ -20,7 +20,6 @@ import { environment } from 'src/environments/environment';
 import * as storeModuleConfiguration from './store';
 import { CreditCardPaymentStoreEffects } from './store/effects';
 import { CreditCardPaymentFacade } from './store/facade';
-// import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
